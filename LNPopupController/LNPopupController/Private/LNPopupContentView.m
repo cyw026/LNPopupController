@@ -118,6 +118,7 @@ LNPopupCloseButtonStyle _LNPopupResolveCloseButtonStyleFromCloseButtonStyle(LNPo
 		
 		if(buttonStyle != LNPopupCloseButtonStyleNone)
 		{
+            self.popupCloseButton.hidden = NO;
 			self.popupCloseButton.translatesAutoresizingMaskIntoConstraints = NO;
 			
 			if(_popupCloseButtonTopConstraint == nil)
